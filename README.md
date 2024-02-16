@@ -14,6 +14,8 @@ You can find more information in the following post from Medium.com: [Introducin
 
 ## Build a Supervised FineTuned version
 
+The instruction finetuned model is available on the [Huggingface Hub](https://huggingface.co/edumunozsala/aguila-7b-instructft-bactrian-x): edumunozsala/aguila-7b-instructft-bactrian-x 
+
 Large language model (LLM) fine-tuning is the process of taking pre-trained models and further training them on smaller, specific datasets to refine their capabilities and improve performance in a particular task or domain. Fine-tuning is about turning general-purpose models and turning them into specialized models. Supervised fine-tuning means updating a pre-trained language model using labeled data to do a specific task. This is different from unsupervised methods, where data isn't checked. Usually, the initial training of the language model is unsupervised, but fine-tuning is supervised. In our case, we apply an instruction tuning approach.
 
 One approach to improve a model's performance on various tasks is instruction fine-tuning. It's about training the machine learning model using examples that guide the model to respond to an instruction or the query. For preparing the training data, there are many open-source datasets that offer insights into user behaviors and preferences, even if they aren't directly formatted as instructional data. You can take a common dataset and turn it into instruction prompt datasets for fine-tuning. Prompt template libraries include many templates for different tasks and different datasets. The aim is to adapt the previously learned general knowledge to the nuances and specific patterns present in the new dataset, thereby making the model more specialized and effective for the target task.
